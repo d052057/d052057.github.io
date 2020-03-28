@@ -38,6 +38,9 @@ function loadStatement(statement) {
           case "cooking":
                $("#statement").load("videos/meeCola.html").fadeToggle(1000);
                break;
+          case "carouselVideo":
+               $("#statement").load("carouselVideo/index.html").fadeToggle(1000);
+               break;
      }
 
 };
@@ -90,6 +93,9 @@ function addEvents() {
 
      $('#cooking').click(function () {
           loadStatement('cooking');
+     });
+     $('#carouselVideo').click(function () {
+          loadStatement('carouselVideo');
      });
 
      $('#other').click(function () {

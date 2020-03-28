@@ -391,3 +391,17 @@ textarea::-webkit-resizer {
      background-color: green;
 }
 **/
+h3 {
+     background-color: rgba(var(--todayColor),var(--alpha200));
+     border-left-color: rgb(var(--todayColor));
+     border-left-width: 4px;
+     border-left-style:solid;
+     padding-left: 10px;
+     padding-top:4px;
+     padding-bottom:4px;
+     color:rgb(var(--todayColor));
+}
+b,
+strong {
+     color: rgb(var(--todayColor));
+}
