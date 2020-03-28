@@ -35,6 +35,9 @@ function loadStatement(statement) {
           case "other":
                $("#statement").load("other/otherStatement.html").fadeToggle(1000);
                break;
+          case "cooking":
+               $("#statement").load("videos/meeCola.html").fadeToggle(1000);
+               break;
      }
 
 };
@@ -84,6 +87,11 @@ function addEvents() {
      $('#lessonLearn').click(function () {
           loadStatement('lessonLearn');
      });
+
+     $('#cooking').click(function () {
+          loadStatement('cooking');
+     });
+
      $('#other').click(function () {
           loadStatement('other');
      });
