@@ -1,12 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\bsform",
     "\\js",
+    "\\setup",
     "\\styles",
     "\\videos",
     "\\viewForm"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\js\\switchVideo.js",
   "PreviewInSolutionExplorer": false
 }
